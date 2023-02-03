@@ -3,7 +3,7 @@
 }
 
 body {
-    margin: 10px;
+    margin: 5px;
 }
 
 header {
@@ -13,13 +13,17 @@ header {
     padding: 35px;
     color: white;
     border: 10px solid darkgoldenrod;
+    border-radius: 15px;
     background-color:brown;
+    margin: 5px;
 }
 
 nav {
     display: flex;
     background-color: darkgoldenrod;
+    border-radius: 15px;
     padding: 15px;
+    margin: 5px;
     text-align: center;
 }
 
@@ -40,7 +44,13 @@ nav :hover {
 .hero {
     padding: 20px;
     background-color: brown;
+    color: white;
     text-align: center;
+    border: 10px solid darkgoldenrod;
+    border-radius: 15px;
+    margin: 5px;
+    margin-top: 0;
+    margin-right: 0;
 }
 
 img {
@@ -48,7 +58,7 @@ img {
     width: 300px;
     display: inline-block;
     border: 10px darkgoldenrod solid;
-
+    border-radius: 15px;
 }
 
 main {
@@ -58,10 +68,45 @@ main {
 
 .nav-box {
     flex: 4;
-    padding: 20px;
     display: block;
+    padding: 10px;
     flex-wrap: wrap;
     text-align: center;
+    color: white;
+    border:10px solid darkgoldenrod;
+    border-radius: 15px;
+    margin: 5px;
+    margin-top: 0;
+    background-color: brown;
+}
+
+.nav-box h2 {
+    font-size: 50px;
+}
+
+#contact {
+    font-size: 20px;
+}
+
+#contact a {
+    color: goldenrod;
+}
+#contact a:hover {
+    color: darkgoldenrod;
+}
+#contact a:visited {
+    color: yellow;
+}
+
+footer {
+    border: 10px solid darkgoldenrod;
+    border-radius: 15px;
+    margin: 5px;
+    margin-top: 0;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    font-size: 20px;
 }
 
 
